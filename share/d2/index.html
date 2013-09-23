@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>D2-见闻录</title>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="css/reveal.min.css">
+    <link rel="stylesheet" href="css/theme/default.css" id="theme">
+    <!-- For syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+    <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+    <script>
+        document.write('<link rel="stylesheet" href="css/print/' + ( window.location.search.match(/print-pdf/gi) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">');
+    </script>
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script><![endif]-->
+
+    <base target="_blank"/>
+    <!--这么写更方便slide中插入script，此处忽略性能吧-->
+    <script src="js/jquery-min.js"></script>
+    <script src="js/jquery.lightbox-0.5.pack.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" media="screen"/>
+    <style type="text/css">
+        a.large {
+            font-size: 140%;
+            font-weight: bold;
+        }
+
+        .img {
+            height: 200px;
+        }
+
+        .img-thumb {
+            height: 220px;
+        }
+
+        .img-long {
+            height: 600px;
+        }
+
+        .img-fat {
+            width: 400px;
+        }
+
+        .left {
+            float: left;
+            margin-right: 20px;
+        }
+
+        .right {
+            float: left;
+            /*margin-left: 200px;*/
+            padding: 20px 0 0 40px;
+        }
+    </style>
+</head>
+<body>
+<div class="reveal">
+    <div class="slides">
+        <section data-markdown>
+            <aside class="notes">
+                * D2=(Designer & Developer Frontend Technology Forum)
+                * ADC=阿里技术嘉年华
+            </aside>
+            # D2见闻分享
+            <br><br>
+            ## by johnna
+        </section>
+
+        <section>
+            <h2>主题-跨越</h2>
+            <p><br><br></p>
+            <h3>Cross Domain</h3>
+            <h3>Cross End</h3>
+        </section>
+
+        <section>
+            <h2>Cross Domain</h2>
+            <ol>
+                <li>游戏开发</li>
+                <li>PS的扩展</li>
+                    <li>测试工具</li>
+                <li>浏览器扩展</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>1. 游戏开发-JS的优劣</h2>
+            <br><br>
+            <ul>
+                <li>
+                    <h3>优</h3>
+                    <ul>
+                        <li>脚本语言-无编译，简洁，面向对象</li>
+                        <li>跨平台-浏览器</li>
+                        <li>开源-框架多，社区活跃</li>
+                    </ul>
+                </li>
+                <li style="margin-top:20px">
+                    <h3>劣</h3>
+                    <ul>
+                        <li>跨平台但是不统一</li>
+                        <li>图形界面能力差</li>
+                        <li>局限在浏览器上</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <section>
+                <h2>1. 游戏开发-HTML5</h2>
+                <br>
+                <ul>
+                    <li><h3>Canvas</h3>
+                        <ul>
+                            <li>绘制几何图形</li>
+                            <li>绘制位图</li>
+                            <li>像素级操作</li>
+                            <li>变换能力</li>
+                        </ul>
+                    </li>
+                    <li><h3>CSS3</h3>
+                        <ul>
+                            <li>Animation（动画）</li>
+                            <li>Transition（转换）</li>
+                            <li>Transform（变形）</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <ul>
+                    <li><h3>WebGL</h3>
+                        <ul>
+                            <li><a href="http://mrdoob.github.io/three.js/examples/#webgl_lights_hemisphere" target="_blank">Three.js</a></li>
+                            <li><a href="http://labs.hyperandroid.com/static/caat/" target="_blank">CAAT.js</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+        </section>
+      
+
+        <section>
+            <h2>1. 游戏开发-Eject</h2>
+            <br>
+            <ul>
+                <li><h3>Canvas-eject-OpenGL</h3></li>
+                <li><h3>CallNative-JsBinding-NativeMethed</h3></li>
+                <li><h3>Demo</h3></li>
+            </ul>
+        </section>
+          <section>
+               <section>
+                    <h2>1. 游戏开发-Cocos2d</h2>
+                    <br>
+                    <ul>
+                         <li><h3>Cross PlatForm</h3></li>
+                         <li><h3>Open Source</h3></li>
+                         <li><h3>Fast</h3></li>
+                         <li><h3>Proven</h3></li>
+                    </ul>
+               </section>
+               <section>
+                    <div class="lightbox-wrapper">
+                         <a href="img/jsbinding-1.jpg"><img src="img/jsbinding-1.jpg"></a>
+                    </div>
+               </section>
+               <section>
+                    <div class="lightbox-wrapper">
+                         <a href="img/jsbinding-3.jpg"><img src="img/jsbinding-3.jpg"></a>
+                    </div>
+               </section>
+          </section>
+         
+          <section>
+               <h2>1. 游戏开发-资料</h2>
+               <br>
+               <ul>
+                    <li><a href="http://impactjs.com/ejecta" target="_blank">Eject</a></li>
+                    <li><a href="http://www.cocos2d-x.org/" target="_blank">Cocos2d</a></li>
+                    <li><a href="http://mrdoob.github.io/three.js/" target="_blank">Three.js</a></li>
+                    <li><a href="http://labs.hyperandroid.com/" target="_blank">CAAT.js</a></li>
+                    <li><a href="http://www.html5china.com/HTML5features/WebGL/20120509_3611.html" target="_blank">Three.js开发指南</a></li>
+                    <li><a href="http://blog.csdn.net/lqrensn/article/details/8109498" target="_blank">webkit开发之js扩展</a></li>
+               </ul>
+          </section>
+         
+          <section>
+               <section>
+                    <h2>2. PS的扩展-基础</h2>
+                    <br><br>
+                    <ul>
+                         <li><h3>ExtendScript</h3></li>
+                         <li><h3>PS Plug-in</h3></li>
+                    </ul>
+               </section>
+              
+               <section data-markdown>
+                    ### ExtendScript
+                    <br>
+                    ```javascript
+                    function run(){
+                         var layers = app.activeDocument.layers;
+                         var len = layers.length;
+                         for(var i=0;i＜len;i++){
+                              $.writeln(layers[i].name +": "+ layers[i].bounds);
+                         }
+                    }
+                    run();
+                    ```
+               </section>
+               <section data-markdown>
+                    ### PS Plug-in
+                    <br>
+                    <div class="lightbox-wrapper">
+                         <a href="img/PSplugin-2.jpg">
+                              <img src="img/PSplugin-1.jpg" height="400">
+                         </a>
+                    </div>
+               </section>
+          </section>
+         
+          <section>
+            <section>
+                 <h2>2. PS的扩展-PSD2CMS</h2>
+                 <br>
+                      <div class="lightbox-wrapper">
+                           <a href="img/PSD2CMS.jpg">
+                                <img src="img/PSD2CMS.jpg">
+                           </a>
+                      </div>
+            </section>
+            <section>
+                 <h3>优势与局限</h3>
+                 <div class="lightbox-wrapper left">
+                     <a href="img/PSD2CMS-code.jpg">
+                          <img src="img/PSD2CMS-code.jpg">
+                     </a>
+                </div>
+                <div class="right" style="padding:20px 0 0 40px">
+                   <ul>
+                      <li><h4>优势</h4>
+                          <ul>
+                              <li>文本分离</li>
+                              <li>高兼容性</li>
+                              <li>代码简洁</li>
+                              <li>快</li>
+                          </ul>
+                      </li>
+                      <li><h4>局限</h4>
+                          <ul>
+                              <li>纯静态页面</li>
+                              <li>无语义</li>
+                              <li>布局死板</li>
+                          </ul>
+                      </li>
+                  </ul>
+                </div>
+            </section>
+          </section>
+         
+          <section>
+               <section>
+                    <h2>2. PS的扩展-PS Common API</h2>
+                    <br><br>
+                    <ul>
+                         <li><h3>英文资料有限</h3></li>
+                         <li><h3>中文资料几乎没有</h3></li>
+                         <li><h3>开放的API不满足需求</h3></li>
+                         <li><h3>部分API晦涩难懂</h3></li>
+                    </ul>
+               </section>
+               <section>
+                    <div class="lightbox-wrapper">
+                         <a href="img/PSCommonApi.jpg">
+                              <img src="img/PSCommonApi.jpg">
+                         </a>
+                    </div>
+               </section>
+          </section>
+
+          <section>
+               <h2>2. PS的扩展-资料</h2>
+               <br>
+               <ul>
+                    <li><a href="http://helpx.adobe.com/content/dam/help/en/photoshop/using/attachments/Configurator_3_1_User_Guide.pdf" target="_blank">Configurator3 面板开发指南</a></li>
+                    <li><a href="http://jongware.mit.edu/idcs5/" target="_blank">Adobe CS5对象模型</a></li>
+                    <li><a href="http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/devnet/photoshop/pdfs/photoshop_cs5_javascript_ref.pdf" target="_blank">Photoshop JS 开发API文档</a></li>
+                    <li><a href="http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/devnet/photoshop/pdfs/photoshop_cs5_scripting_guide.pdf" target="_blank">Photoshop 脚本开发指南</a></li>
+                    <li><a href="http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/products/indesign/pdfs/JavaScriptToolsGuide_CS5.pdf" target="_blank">ExtendScript toolkit等工具介绍</a></li>
+                    <li><a href="https://github.com/starsun/PSD-Common-API" target="_blank">PSD通用API</a></li>
+               </ul>
+          </section>
+    </div>
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.min.js"></script>
+<script src="js/index.js"></script>
+<script>
+
+</script>
+</body>
+</html>
